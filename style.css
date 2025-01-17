@@ -1,0 +1,208 @@
+/* name  - applies to all tags called "name" */
+/* #name - applies to all tags with 'id="name"' */
+/* .name - creates a class which can be used in tags as 'class="name"' */
+/*
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: seashell;
+}
+*/
+.background-image
+{
+    background: linear-gradient(rgba(255, 255, 250, 0.75), rgba(255, 255, 250, 0.75)), 
+                url('images/florist.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content
+{
+    text-align: center;
+}
+
+.navbar
+{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+.img
+{
+    width: 200px;
+    border-style: inset;
+    border-color: grey;
+    border-width: 10px;
+    justify-self: center;
+}
+
+.img-rotate-90cw
+{
+    width: 200px;
+    border-style: inset;
+    border-color: grey;
+    border-width: 10px;
+    justify-self: center;
+
+    transform: rotate(90deg);
+    /* margin-top: 100px; */
+}
+
+
+.homepage
+{
+    font-family: 'Lucida Handwriting', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+/*    justify-content: center; */
+    color: red;
+    font-size: medium;
+    margin: 5px;
+    font-weight: normal;
+    background-color: bisque;
+}
+
+.product-pages
+{
+/*    font-family: 'Lucida Handwriting', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+
+/*    justify-content: center; */
+/*    color: red; */
+/*    font-size: medium; */
+    margin: 5px;
+    font-weight: normal;
+    background-color: bisque;
+    justify-content: space-around;
+}
+
+.product-page
+{
+/*    display: flex; */
+/*    justify-content: space-around; */
+    margin: 10px;
+}
+
+.shopname
+{
+    font-family: 'Lucida Handwriting', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    color: red;
+    font-size: larger;
+    margin: 20px;
+    font-weight: bold;
+/*    background-color: bisque; */
+}
+
+.body-header
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    display: flex;
+    justify-content: center;
+}
+
+.body-text
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+/*    justify-content: center; */
+}
+
+.body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    margin: 20px;
+    font-weight: normal;
+
+    /*    background-color: bisque; */
+}
+
+.content
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    margin: 20px;
+    font-weight: normal;
+
+    /*    background-color: bisque; */
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+}
+
+.content-and-footer
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: medium;
+    margin: 20px;
+    font-weight: normal;
+
+/*    background-color: bisque; */
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.shop-window
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: medium;
+    margin: 20px;
+    font-weight: normal;
+
+/*    background-color: bisque; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-items: center; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.shop-item
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: medium;
+    margin: 20px;
+    font-weight: normal;
+
+/*    background-color: bisque; */
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.footer-bar
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: black;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+}
+
+.external-link
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+/*    color: black; */
+    margin:  5px 20px;
+    font-weight: normal;
+    background-color: bisque;
+    justify-content: space-around;
+}
